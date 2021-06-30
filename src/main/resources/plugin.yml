@@ -1,0 +1,15 @@
+name: Sumo
+version: ${project.version}
+prefix: Sumo
+authors: [ Maiky1304 ]
+description: Private plugin for BlackMT
+
+main: dev.maiky.sumo.Sumo
+
+commands:
+  sumo:
+    description: "Main Sumo Command"
+    permission: "sumo.admin"
+    permission-message: '§cJe hebt geen permissies om dit commando uit te voeren.'
+  top:
+    description: Top 3
